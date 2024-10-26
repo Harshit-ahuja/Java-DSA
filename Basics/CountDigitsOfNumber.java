@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CountDigitsOfNumber {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+
+        // Keeping the count
+        int count = 0;
+        while(n != 0) {
+            n = n/10;
+            count++;
+        }
+        System.out.println(count);
+    }
+}
