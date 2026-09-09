@@ -1,0 +1,25 @@
+Stack -> A dynamic-sized data structure similar to ArrayList. The difference lies in the usage.
+        ArrayList offers more functionality in the sense that addition, removal and get can be done from any position in ArrayList.
+        Stack offers more displine. Additional, removal and get can be performed only on the top position.
+
+        Primary Methods Offered :
+                -> push() method for addition at top position
+                -> pop() method for removal from top position
+                -> peek() method for getting the value from top position
+                -> size() method for getting the total size of stack
+
+        Complexity of Methods :
+                -> peek() : O(1)
+                -> pop() : O(1)
+                -> size() : O(1)
+                -> push() : O(1) (Amortized)
+
+                Usually, push() is O(1) but occasionally, the underlying array needs to resize, which takes O(n).
+                But technically, it is O(1) only.
+
+        Nuances : 
+                -> If stack is empty, st.peek() throws EmptyStackException.
+                -> In java, generics can't use primitive data types. Hence, we never write
+                   Stack<int> st;
+                   We always use the corresponding wrapper class
+                   Stack<Integer> st;

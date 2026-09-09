@@ -1,0 +1,9 @@
+Stock span of 2 -> 1
+Stock span of 5 -> 2
+Stock span of 9 -> 3
+Stock span of 3 -> 1
+Stock span of 1 -> 1
+Stock span of 12 -> 6
+Stock span of 6 -> 1
+Stock span of 8 -> 2
+Stock span of 7 -> 1

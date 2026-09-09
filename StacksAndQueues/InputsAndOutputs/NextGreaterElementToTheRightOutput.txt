@@ -1,0 +1,25 @@
+NGE to the right using approach 1 : 
+
+Next greater element to the right of 2 -> 5
+Next greater element to the right of 5 -> 9
+Next greater element to the right of 9 -> 12
+Next greater element to the right of 3 -> 12
+Next greater element to the right of 1 -> 12
+Next greater element to the right of 12 -> -1
+Next greater element to the right of 6 -> 8
+Next greater element to the right of 8 -> -1
+Next greater element to the right of 7 -> -1
+
+
+
+NGE to the right using approach 2 : 
+
+Next greater element to the right of 2 -> 5
+Next greater element to the right of 5 -> 9
+Next greater element to the right of 9 -> 12
+Next greater element to the right of 3 -> 12
+Next greater element to the right of 1 -> 12
+Next greater element to the right of 12 -> -1
+Next greater element to the right of 6 -> 8
+Next greater element to the right of 8 -> -1
+Next greater element to the right of 7 -> -1
