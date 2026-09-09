@@ -1,6 +1,6 @@
 Stack -> A dynamic-sized data structure similar to ArrayList. The difference lies in the usage.
         ArrayList offers more functionality in the sense that addition, removal and get can be done from any position in ArrayList.
-        Stack offers more displine. Additional, removal and get can be performed only on the top position.
+        Stack offers more displine. This means that addition, removal and get can be performed only on the top position.
 
         Primary Methods Offered :
                 -> push() method for addition at top position
