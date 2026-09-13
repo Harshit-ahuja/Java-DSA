@@ -87,7 +87,7 @@ public class SlidingWindowMaximum {
 
             // Enter the loop to find the maximum of window starting from i
             
-            if(j < i) {
+            if(j < i) { // 'j' only falls behind 'i' when the previous window's max was exactly at index 'i-1'. Since, that element would be now out of the window, we must restart the chain from the start of the new window boundary (i.e 'i')
                 j = i;
             }
 
