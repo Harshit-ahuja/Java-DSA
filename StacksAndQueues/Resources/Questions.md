@@ -9,3 +9,9 @@ Q3 - Next Greater Element On The Right
 
 Q4 - Stock Span
 ![alt text](image-3.png)
+
+Q5 - Largest Area Histogram
+![alt text](image-4.png)
+
+Q6 - Sliding Window Maximum
+![alt text](image-5.png)
